@@ -1,0 +1,9 @@
+{
+    "builds": [
+      { "src": "fixsmart_api.py", "use": "@vercel/python" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "fixsmart_api.py" }
+    ]
+  }
+  
