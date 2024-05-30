@@ -1,0 +1,8 @@
+venv/
+*.log
+*.md
+tests/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
